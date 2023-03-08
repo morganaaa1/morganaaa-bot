@@ -8,6 +8,9 @@ import nextcord, youtube_dl, os
 from PIL import Image, ImageDraw, ImageFont
 import aiohttp
 import io
+from dotenv import load_dotenv
+
+load_dotenv()
 
 queuelist = []
 filestodelete = []
@@ -346,4 +349,4 @@ async def on_member_join(member):
   await channel.send(file=file)
 
 
-bot.run("MTAyMTc0MTc1NTEwNTgyMDczMw.GqFVee.67IMNWjNmHRhxJHkrFnMaVcwP6LttUQY341Yck")
+bot.run(os.environ['DISCORD_TOKEN'])
