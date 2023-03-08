@@ -346,4 +346,4 @@ async def on_member_join(member):
   await channel.send(file=file)
 
 
-bot.run("MTAyMTc0MTc1NTEwNTgyMDczMw.GikSyk.PqO0KxPSPMR7WLJIzc31pofw9ixijWEgxlw32c")
+bot.run("MTAyMTc0MTc1NTEwNTgyMDczMw.GqFVee.67IMNWjNmHRhxJHkrFnMaVcwP6LttUQY341Yck")
